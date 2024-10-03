@@ -4,7 +4,12 @@ body {
   font-family: 'Inter', sans-serif;
   background-image: url("bg-image.jpg");
   background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+/* LAYOUT */
 
 .container {
   width: 80%;
@@ -15,6 +20,14 @@ body {
   border-radius: 20px;
   border: 6px solid #fff;
 }
+
+.passwords {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+/* Typography */
 
 #title {
   color: #fff;
@@ -36,10 +49,6 @@ body {
   font-size: 20px;
 }
 
-.passwords {
-  display: flex;
-  justify-content: space-around;
-}
 
 .passwords .first-pw, .second-pw {
   width: 200px;
